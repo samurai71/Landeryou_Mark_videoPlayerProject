@@ -2,7 +2,7 @@
   "name": "videoPlayerProject",
   "version": "1.0.0",
   "description": "Video Player Project for Fanshawe College Multimedia Authoring 3",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/samurai71/videoPlayerProject/issues"
   },
