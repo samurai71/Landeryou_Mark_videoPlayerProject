@@ -1,20 +1,19 @@
 {
-  "name": "videoPlayerProject",
-  "version": "1.0.0",
-  "description": "Video Player Project for Fanshawe College Multimedia Authoring 3",
-  "main": "app.js",
+  "name": "videoapp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samurai71/videoPlayerProject.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/samurai71/videoPlayerProject/issues"
-  },
-  "homepage": "https://github.com/samurai71/videoPlayerProject#readme"
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-handlebars": "^3.0.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "reload": "^2.2.2",
+    "serve-favicon": "~2.4.5"
+  }
 }
