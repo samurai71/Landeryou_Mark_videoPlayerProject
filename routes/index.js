@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('home', {
     title: 'Video Player Project',
-  message: 'handlebars is awesome' });
+  message: 'Welcome to Our Video Player App' });
 });
 
 module.exports = router;
