@@ -1,15 +1,15 @@
-/*var express = require('express');
+var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-/*router.get('/', function(req, res, next) {
+router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-module.exports = router;*/
+module.exports = router;
 
-var express = require('express');
-var router = express.Router();
+//var express = require('express');
+//var router = express.Router();
 //var config = require('../config');
 
 // do some checking here => check the default user profile
@@ -17,7 +17,7 @@ var router = express.Router();
 //var toRender = (config.kidsmode) ? 'main_kids' : 'home';
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+/*router.get('/', function(req, res, next) {
   res.render(toRender, {
     title: 'Done yet?',
     message : "handlebars is awesome",
@@ -25,7 +25,7 @@ router.get('/', function(req, res, next) {
     cms : false,
     kidsmode : config.kidsmode
   });
-});
+});*/
 
 /*router.get('/cms', (req, res) => {
   console.log('hit the cms route');
