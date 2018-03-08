@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="stylesheets/main.css">
-  
+
   {{#if cms}}
     <link rel="stylesheet" href="stylesheets/form.css">
   {{/if}}
@@ -18,6 +18,8 @@
   <div class="container-fluid">
   {{{ body }}}
 
+  </div>
+  
   {{#if mainPage}}
 <script src="javascripts/main.js"></script>
 {{/if}}
@@ -25,6 +27,6 @@
 {{#if cms}}
 <script src="/javascripts/cmsHandler.js"></script>
 {{/if}}
-</div>
+
 </body>
 </html>
