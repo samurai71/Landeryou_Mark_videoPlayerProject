@@ -8,8 +8,8 @@ var xhb = require('express-handlebars');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var adult = require('./routes/adult');
-var kids = require('./routes/kids');
+//var adult = require('./routes/adult');
+//var kids = require('./routes/kids');
 
 var app = express();
 
