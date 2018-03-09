@@ -3,7 +3,7 @@ var config = {
   password : "root", // leave this blank for windows machines
   port: 8889,
   host: "localhost",
-  database: "cooperStuff",
+  database: "db_videoplayerproject",
 
   kidsmode : false
 }
