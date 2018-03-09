@@ -28,10 +28,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
-app.use('/users', users);
+// app.use('/', index);
+// app.use('/users', users);
 // import all of your routes
-//app.use('/', require('./routes/index'));
+app.use('/', require('./routes/index'));
+app.use('/adult', require('./routes/adult'));
+app.use('/kids', require('./routes/kids'));
 //app.use('/users', require('./routes/users'));
 //app.use('/getCars', require('./routes/getCars'));
 //app.use('/api', require('./routes/api'));
