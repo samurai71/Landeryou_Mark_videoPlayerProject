@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('Kids', {
     title: 'Video Player Project | Kids',
-  message: 'Kids Section' });
+  message: 'Kids Video Section' });
 });
 
 module.exports = router;
